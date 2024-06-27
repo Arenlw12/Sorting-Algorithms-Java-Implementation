@@ -7,9 +7,11 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = rd.nextInt(10000);
         }
-        BubbleSort.bubbleSort(arr);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+//        BubbleSort.bubbleSort(arr);
+//        SelectionSort.selectionSort(arr);
+        InsertionSort.insertionSort(arr);
+        for (int j : arr) {
+            System.out.println(j);
         }
     }
 }
