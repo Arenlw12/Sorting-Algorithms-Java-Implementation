@@ -11,7 +11,7 @@ public class Main {
 //        SelectionSort.selectionSort(arr);
 //        InsertionSort.insertionSort(arr);
 //        QuickSort.quickSort(arr);
-        MergeSort.mergeSort(arr);
+//        MergeSort.mergeSort(arr);
         for (int j : arr) {
             System.out.println(j);
         }
